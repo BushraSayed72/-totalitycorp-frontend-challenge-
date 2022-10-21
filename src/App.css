@@ -159,25 +159,26 @@
   }
   .mug{
     height:38rem;
-    width: 50%;
+    width: 100%;
   }
   .right{
     height:38rem;
-    width:50%;
+    width:100%;
     background-color:#d4e9e2;
     text-align: center;
     padding-top: 8rem;
     
   }
   .green-bold{
-    margin-left:4rem;
+    width:100%;
+    margin-left:1rem;
     font-size: 3.8rem;
     font-weight: 500;
     color: rgb(7, 65, 7);
     
   }
   .para {
-    
+    width:100%;
     font-size:1.8rem;
     font-weight:400;
     font-family: sans-serif;
@@ -203,6 +204,7 @@
 }
 /* ===============Main-two====================== */
 .main-two{
+  width: 100%;
   margin-top:2rem;
   display: flex;
   margin-bottom: 1rem;
