@@ -45,20 +45,25 @@
 .header{
   margin:0;
   padding:1.5rem;
-  background-color:white;
+  background-color:rgb(246, 245, 245);
   display:flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
   
 }
 .navbar{
   display:flex;
+  width: 100%;
   justify-content: space-between;
   align-items: center; 
 } 
 .left-list{
   display:flex;
   /* justify-content: left; */
+
+
+
   gap:2rem;
   list-style: none;
 }
@@ -83,10 +88,15 @@
 
 }
 
-
+.left_div{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content:center ;
+  align-items: center;
+}
 
 .right-list{
-  margin-left: 30rem;
   margin-top: 4px;
   display: flex;
   align-items: center;
@@ -214,7 +224,7 @@
 .deltaimg{
   padding-top: 0.8rem;
   margin-left: 5rem;
-  width:43rem;
+  width:60%;
   margin-bottom: 1rem;
   
 }
