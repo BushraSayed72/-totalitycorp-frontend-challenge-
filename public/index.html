@@ -15,11 +15,30 @@
     
     <title>StarBucks clone</title>
   </head>
+
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     
 
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script>
+      $(document).ready(function(){
+      $('.close-icon').hide();
+      $('.ul').hide();
+      $('.ham-icon').on('click',()=>{
+      $('.ham-icon').toggle();
+      $('.close-icon').toggle();
+      $('.ul').toggle();
+      })
+      $('.close-icon').on('click',()=>{
+      $('.ham-icon').toggle();
+      $('.close-icon').toggle();
+      $('.ul').toggle();
       
+      })
+  
+      })
+  </script>  
   </body>
 </html>

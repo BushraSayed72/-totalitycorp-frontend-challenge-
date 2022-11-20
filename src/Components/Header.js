@@ -1,5 +1,7 @@
 import React from "react";
 import logo from "./Images/logo.jpg";
+import icon_open from "./Images/icon-menu.svg";
+import icon_close from "./Images/icon-menu-close.svg";
 import { FaMapMarkerAlt } from "react-icons/fa";
 
 function Header() {
@@ -8,8 +10,11 @@ function Header() {
       <nav className="navbar">
         <div className="left_div">
           <img className="logo" src={logo} alt="logo" />
-
-          <ul className="left-list">
+          <div className="icons-2">
+          <img  className="icon ham-icon" src={icon_open} />
+    <img className="icon close-icon" src={ icon_close} />
+    </div> 
+          <ul className="left-list ">
             <li>
               {" "}
               <a href="https://www.starbucks.com/menu" className="navbar-link">
@@ -31,7 +36,7 @@ function Header() {
             </li>
           </ul>
         </div>
-        <div className="right-list">
+        <div className="right-list ul">
           <div className="find">
             {" "}
             <a
@@ -58,7 +63,9 @@ function Header() {
               Join now
             </a>
           </button>
+          
         </div>
+        
       </nav>
 
       <hr />
