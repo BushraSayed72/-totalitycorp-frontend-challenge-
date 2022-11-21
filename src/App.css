@@ -487,19 +487,20 @@
 }
 .navbar{
   display: flex;
-  justify-content: space-between;
+  flex-direction: column !important;
+  justify-content: center;
   align-items: center;
-  flex-direction: row;
+  
   margin:10px;
 }
 
 
 .right-list{
   display: flex !important;
+  flex-direction: column;
 }
 
-
-.right-list li{
+.left-list li{
   
   padding-left: 60px;
 
@@ -528,8 +529,8 @@
       display: flex;
       align-items:center;
       text-align: center;
-      justify-content: space-between;
-      flex-direction: row;
+      justify-content: center;
+      flex-direction: column !important;
       margin:1px;
       position:relative;
       
@@ -546,7 +547,7 @@
   
     
 
-.right-list {
+  .left-list li {
   padding-top: 5px;
   display: flex;
   flex-direction: column;
@@ -564,7 +565,7 @@
 
   
 }
-.right-list li{
+ .left-list li{
   width:90%;
   padding-top:20px;
   color:var(--Darkgrayishblue);

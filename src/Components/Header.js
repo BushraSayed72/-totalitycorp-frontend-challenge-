@@ -14,18 +14,16 @@ function Header() {
           <img  className="icon ham-icon" src={icon_open} />
     <img className="icon close-icon" src={ icon_close} />
     </div> 
-          <ul className="left-list ">
+          
+        </div>
+        <div className="right-list ul">
+        <ul className="left-list ">
             <li>
-              {" "}
-              <a href="https://www.starbucks.com/menu" className="navbar-link">
-                MENU
-              </a>
+              <a href="https://www.starbucks.com/menu" className="navbar-link">MENU</a>
             </li>
             <li>
-              <a
-                href="https://www.starbucks.com/rewards"
-                className="navbar-link"
-              >
+              <a href="https://www.starbucks.com/rewards"
+                className="navbar-link" >
                 REWARDS
               </a>
             </li>
@@ -34,26 +32,18 @@ function Header() {
                 GIFT CARDS
               </a>
             </li>
-          </ul>
-        </div>
-        <div className="right-list ul">
-          <div className="find">
-            {" "}
+          
+          <p className="find">
             <a
               href="https://www.starbucks.com/store-locator?map=39.635307,-101.337891,5z"
-              className="navbar-link"
-            >
-              <FaMapMarkerAlt /> Find a store{" "}
+              className="navbar-link">
+              <FaMapMarkerAlt /> Find a store
             </a>
-          </div>
+          </p>
+          </ul> 
           <button className="btn">
-            <a
-              href="https://www.starbucks.com/account/signin?ReturnUrl=%2F"
-              className="sign-link"
-            >
-              {" "}
-              Sign in
-            </a>{" "}
+            <a href="https://www.starbucks.com/account/signin?ReturnUrl=%2F"
+              className="sign-link"> Sign in</a>
           </button>
           <button className="btnn">
             <a
